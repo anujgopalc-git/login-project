@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FULL BACKGROUND */
+.bg-container {
+  min-height: 550px;
+  background: linear-gradient(
+    135deg,
+    #79BEB9 0%,
+    #79BEB9 50%,
+    #8FD0CC 50%,
+    #8FD0CC 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* WHITE CARD */
+.center-container {
+ width: 87%;
+    max-width: 1200px;
+    height: 485px;
+    background: white;
+    border-radius: 60px;
+    display: flex;
+    padding: 40px;
+    box-shadow: 0px 0px 4px 0px saddlebrown;
+}
+
+/* LEFT IMAGE */
+.right-part {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.img {
+    max-width: 544px;
+    height: auto;
+}
+.left-part {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 129px; /* single control */
+  gap: 10px;
+}
+
+.headline {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  margin-right: 25px;
+}
+
+.para1 {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.4;
+  text-align: center; /* matches alignment */
+  font-family: cursive;
+  word-spacing: 2px;
+  padding-bottom: 15px;
+}
+
+/* FORM */
+.login-form {
+  width: 100%;
+  max-width: 360px;
+  padding-bottom: 20px;
+}
+
+/* INPUT WRAPPER */
+.input-data {
+  margin-bottom: 25px;
+}
+
+/* LINE TYPE INPUT */
+.login-form input {
+  width: 100%;
+  border: none;                       /* remove box */
+  border-bottom: 1.5px solid #ddd;    /* underline */
+  padding: 10px 0;
+  font-size: 14px;
+ outline: none;
+  background: transparent;
+}
+
+/* PLACEHOLDER */
+.login-form input::placeholder {
+   color: #aaa;
+}
+
+/* FOCUS EFFECT */
+.login-form input:focus {
+  border-bottom: 2px solid #79BEB9;
+}
+
+/* BUTTON */
+.login {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: #79BEB9;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.login:hover {
+  background: #6aaea9;
+}
+.signup-text span {
+  color: #79BEB9;
+  cursor: pointer;
+  font-weight: bold;
+  padding-right: 64px;
+}
+.signup-text{
+    font-family: cursive;
+}
+
+
+
+
+    
+
+
+
+
+
+

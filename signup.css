@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-container{
+    background: linear-gradient(
+    135deg,
+    #79BEB9 0%,
+    #79BEB9 50%,
+    #8FD0CC 50%,
+    #8FD0CC 100%
+  );
+  min-height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-container{
+   background: white;
+    width: 87%;
+    max-width: 1200px;
+    min-height: 485px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+   padding: 51px 40px 50px 20px;
+  box-shadow: 0px 0px 4px 0px saddlebrown;
+
+}
+
+.right-part{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    max-height: 350px;
+    width: auto;
+    object-fit: contain;
+}
+
+.left-part{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.headline{
+    font-size: 22px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.para{
+   padding: 7px;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.signup-form{
+   width: 100%;
+    max-width: 360px;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+.signup-data{
+    margin-bottom: 25px;
+}
+
+.signup-form input{
+
+  width: 100%;
+  border: none;                       /* remove box */
+  border-bottom: 1.5px solid #ddd;    /* underline */
+  padding: 10px 0;
+  font-size: 14px;
+  outline: none;
+  background: transparent;
+
+}
+
+/* PLACEHOLDER */
+.signup-form input::placeholder {
+   color: #aaa;
+}
+
+/* FOCUS EFFECT */
+.signup-form input:focus {
+  border-bottom: 2px solid #79BEB9;
+}
+
+.signup{
+     width: 80%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: #79BEB9;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: cursive;
+  margin-top: 12px;
+}
+
+.signup:hover {
+  background: #6aaea9;
+}
+
+.login-text{
+    padding: 26px 70px;
+    font-family: cursive;
+}
+
+.login-text span{
+    font-weight: bold;
+}
